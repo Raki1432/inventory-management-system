@@ -37,29 +37,34 @@ This project supports full **CRUD operations**, dynamic stock management, and lo
 git clone https://github.com/Raki1432/inventory-management-system.git
 cd inventory-management-system
 
-### 2️⃣ Open the Project
+---
+
+2️⃣ Open the Project
 
 Open the project in IntelliJ IDEA or VS Code (with Java extensions).
 
 Wait for Maven to download all dependencies automatically.
-
+---
 3️⃣ Start MongoDB
 
 Ensure MongoDB is running locally before launching the app.
-
+```bash
 mongosh
+---
 
 
 Verify the available databases:
-
+```bash
 show dbs
+---
 
 ⚙️ Configuration
 
 In your application.properties, add the following:
-
+```bash
 spring.application.name=inventory-management
 spring.data.mongodb.uri=mongodb://localhost:27017/inventorydb
+---
 
 ▶️ Running the Application
 
