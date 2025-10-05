@@ -37,4 +37,9 @@ This project supports full **CRUD operations**, dynamic stock management, and lo
 git clone https://github.com/Raki1432/inventory-management-system.git
 cd inventory-management-system
 
+2️⃣ Open the Project
+
+Open the project in IntelliJ IDEA or VS Code (with Java extensions).
+Wait for Maven to download all dependencies automatically.
+
 
